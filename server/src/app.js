@@ -42,6 +42,7 @@ import healthcheckRouter from "./routes/healthcheck.routes.js";
 import playlistRouter from "./routes/playlist.routes.js";
 import dashboardRouter from "./routes/dashboard.routes.js";
 
+// just for the testing purpose 
 app.get("/", (req, res) => {
     res.send("Hello World!");
 })

@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'http://localhost:3000/api/v1'
+      '/api': 'https://streamify-backend-efl7.onrender.com/api/v1'
     }
   }
 })
